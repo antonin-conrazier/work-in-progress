@@ -1,0 +1,17 @@
+#style {
+    background: #D0E4F5 url("C:/users/ihate/desktop/image-font2.jpg") no-repeat -400px -800px;
+    background-position: center;
+    color:rgba(245, 245, 245, 0.63);
+    }
+
+#page {
+font-family:"arial";
+
+display: grid;
+width: 100%;
+height: 900px;
+grid-template: [header-left] "head head" 100px [header-right]
+               [main-left]   "nav  main" 10fr  [main-right]
+               [footer-left] "nav  foot" 70px [footer-right]
+               / 500px 5fr;
+}
